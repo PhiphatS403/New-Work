@@ -1,9 +1,5 @@
 {
   "scripts": {
-    "build": "npm run build:css && cp -r public/* dist/", 
-    "build:css": "tailwindcss build -i tailwind.css -o public/styles.css"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.17"
+    "build:css": "tailwindcss build -i src/tailwind.css -o public/styles.css"
   }
 }
